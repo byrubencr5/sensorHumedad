@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.contenedor-principal{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    flex-direction: column;
+}
+
+.boton{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.encender{
+    background-color: green;
+}
+
+.apagar{
+    background-color: red;
+}
+
+.fondo-verde{
+    float: left;
+    width: 50%;
+    background-color: floralwhite;
+    color: darkslategray;
+}
+
+.centrar{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
